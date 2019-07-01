@@ -7,11 +7,13 @@
 
 ## Properties
 
-| Property | Attribute | Description     | Type     | Default     |
-| -------- | --------- | --------------- | -------- | ----------- |
-| `first`  | `first`   | The first name  | `string` | `undefined` |
-| `last`   | `last`    | The last name   | `string` | `undefined` |
-| `middle` | `middle`  | The middle name | `string` | `undefined` |
+| Property   | Attribute  | Description | Type                               | Default     |
+| ---------- | ---------- | ----------- | ---------------------------------- | ----------- |
+| `color`    | `color`    |             | `"accent" \| "light" \| "primary"` | `'primary'` |
+| `disabled` | `disabled` |             | `boolean`                          | `undefined` |
+| `shape`    | `shape`    |             | `"round" \| "square"`              | `'square'`  |
+| `size`     | `size`     |             | `"default" \| "large" \| "small"`  | `'default'` |
+| `type`     | `type`     |             | `"button" \| "reset" \| "submit"`  | `'button'`  |
 
 
 ----------------------------------------------
